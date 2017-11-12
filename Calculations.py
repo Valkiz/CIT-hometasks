@@ -152,8 +152,8 @@ for f in films:
 '''
 
 def bestMovie(film_list):
-    mx = 0
-    mxi = 0
+    mx = maxGrade
+    mxi = maxGradeI
     for ind, item in film_list.items():
         if item>mx:
             mx = item
